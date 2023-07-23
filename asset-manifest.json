@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/check/static/css/main.0582fd60.css",
-    "main.js": "/check/static/js/main.659c51ce.js",
+    "main.css": "/check/static/css/main.16b3ce50.css",
+    "main.js": "/check/static/js/main.5fe00cc5.js",
     "static/media/17_lipca_2023r.xlsx": "/check/static/media/17_lipca_2023r.0c7515b050c2b843c0b7.xlsx",
     "static/media/21_grudnia_2021r.xlsx": "/check/static/media/21_grudnia_2021r.7371bcd1fda06b707945.xlsx",
     "static/media/01_grudnia_2021r.xlsx": "/check/static/media/01_grudnia_2021r.69911311c1a2b6c4e642.xlsx",
     "static/media/18_luty_2021r.xlsx": "/check/static/media/18_luty_2021r.3c462a790d1ba27ef1ab.xlsx",
     "static/media/18_grudnia_2019r.xlsx": "/check/static/media/18_grudnia_2019r.f02d257227f36d64f3e3.xlsx",
     "static/media/31_lipca_2019r.xlsx": "/check/static/media/31_lipca_2019r.2d9f1bcfd24628f16565.xlsx",
+    "static/media/09_luty_2021r.xlsx": "/check/static/media/09_luty_2021r.a35a1e00d512989f9375.xlsx",
     "index.html": "/check/index.html",
-    "main.0582fd60.css.map": "/check/static/css/main.0582fd60.css.map",
-    "main.659c51ce.js.map": "/check/static/js/main.659c51ce.js.map"
+    "main.16b3ce50.css.map": "/check/static/css/main.16b3ce50.css.map",
+    "main.5fe00cc5.js.map": "/check/static/js/main.5fe00cc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0582fd60.css",
-    "static/js/main.659c51ce.js"
+    "static/css/main.16b3ce50.css",
+    "static/js/main.5fe00cc5.js"
   ]
 }
