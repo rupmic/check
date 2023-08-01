@@ -20,6 +20,7 @@ const Search = ({
             type="text"
             maxLength="100"
             placeholder="issn, tytuł czasopisma"
+            title="Wpisz issn lub tytuł czasopisma, które chcesz sprawdzić"
             autoComplete="off"
             value={inputValue}
             onChange={handleChange}

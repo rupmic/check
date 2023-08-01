@@ -3,6 +3,7 @@ import styles from "./App.module.scss";
 import { Search } from "./components/Search";
 import { Result } from "./components/Result";
 import { Footer } from "./components/Footer";
+import { SearchModule } from "./components/SearchModule/SearchModule";
 
 import wykaz_1 from "./assets/wykaz31072019.json";
 import wykaz_2 from "./assets/wykaz18122019.json";
@@ -136,13 +137,14 @@ class App extends Component {
         <h2>CHECK.this.Journal</h2>
         <h3>WYSZUKIWARKA CZASOPISM PUNKTOWANYCH</h3>
         <h3>od wykazu z dnia 31 lipca 2019 r.</h3>
-        <Search
+        {/* <Search
           state={this.state}
           handleChange={this.handleChange}
           handlePaste={this.handlePaste}
           handleClick={this.handleClick}
-        />
-        {this.state.result === "undefined" ? null : (
+        /> */}
+        <SearchModule data={this.state.result} />
+        {this.state.result === "undefind" ? null : (
           <Result state={this.state} />
         )}
         <Footer />

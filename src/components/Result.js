@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./Result.module.scss";
 import { CgSearchLoading } from "react-icons/cg";
 
-import wykaz_1E from "../assets/wykazy/31_lipca_2019r.xlsx";
-import wykaz_2E from "../assets/wykazy/18_grudnia_2019r.xlsx";
-import wykaz_3E from "../assets/wykazy/09_luty_2021r.xlsx";
-import wykaz_4E from "../assets/wykazy/18_luty_2021r.xlsx";
-import wykaz_5E from "../assets/wykazy/01_grudnia_2021r.xlsx";
-import wykaz_6E from "../assets/wykazy/21_grudnia_2021r.xlsx";
-import wykaz_7E from "../assets/wykazy/17_lipca_2023r.xlsx";
+import wykaz_1E from "../assets/wykazyXLSX/31_lipca_2019r.xlsx";
+import wykaz_2E from "../assets/wykazyXLSX/18_grudnia_2019r.xlsx";
+import wykaz_3E from "../assets/wykazyXLSX/09_luty_2021r.xlsx";
+import wykaz_4E from "../assets/wykazyXLSX/18_luty_2021r.xlsx";
+import wykaz_5E from "../assets/wykazyXLSX/01_grudnia_2021r.xlsx";
+import wykaz_6E from "../assets/wykazyXLSX/21_grudnia_2021r.xlsx";
+import wykaz_7E from "../assets/wykazyXLSX/17_lipca_2023r.xlsx";
 import { ListElement } from "./ListElement";
 
 const Result = (props) => {
@@ -149,7 +149,7 @@ const Result = (props) => {
         </div>
 
         <div className={styles.single_row}>
-          <div className={styles.single_row_block_lp}>1</div>
+          {/* <div className={styles.single_row_block_lp}>1</div> */}
           <div className={styles.single_row_block_title_and_issn}>
             <div className={styles.first_line}>
               <span className={styles.title}>Tytuł I:</span>
