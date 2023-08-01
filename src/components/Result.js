@@ -149,7 +149,6 @@ const Result = (props) => {
         </div>
 
         <div className={styles.single_row}>
-          <div className={styles.single_row_block_lp}>1</div>
           <div className={styles.single_row_block_title_and_issn}>
             <div className={styles.first_line}>
               <span className={styles.title}>Tytuł I:</span>

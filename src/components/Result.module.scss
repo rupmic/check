@@ -55,16 +55,6 @@
     border-radius: 5px;
     background-color: $whiteBackground;
 
-    .single_row_block_lp {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 30px;
-      margin-right: calc(2 * $spacingTablet);
-      color: hsl(0deg, 0%, 45%);
-      font-weight: 900;
-    }
-
     .single_row_block_title_and_issn {
       width: 100%;
       display: flex;

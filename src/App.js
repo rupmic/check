@@ -145,6 +145,14 @@ class App extends Component {
         {this.state.result === "undefined" ? null : (
           <Result state={this.state} />
         )}
+        <span className={styles.announcement}>Usprawniony moduł wyszukiwania tytułów czasopism w najnowszej wersji - <a href="https://rupmic.github.io/check-2.0/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.announcement_link}
+            >
+              dostępny tutaj
+          </a>.
+        </span>
         <Footer />
       </div>
     );
