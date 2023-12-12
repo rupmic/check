@@ -9,6 +9,8 @@ import wykaz_4E from "../assets/wykazy/18_luty_2021r.xlsx";
 import wykaz_5E from "../assets/wykazy/01_grudnia_2021r.xlsx";
 import wykaz_6E from "../assets/wykazy/21_grudnia_2021r.xlsx";
 import wykaz_7E from "../assets/wykazy/17_lipca_2023r.xlsx";
+import wykaz_8E from "../assets/wykazy/03_listopada_2023r.xlsx";
+
 import { ListElement } from "./ListElement";
 
 const Result = (props) => {
@@ -22,6 +24,7 @@ const Result = (props) => {
     list_5,
     list_6,
     list_7,
+    list_8,
     id_1,
     id_2,
     id_3,
@@ -29,6 +32,7 @@ const Result = (props) => {
     id_5,
     id_6,
     id_7,
+    id_8,
     punkty_1,
     punkty_2,
     punkty_3,
@@ -36,6 +40,7 @@ const Result = (props) => {
     punkty_5,
     punkty_6,
     punkty_7,
+    punkty_8,
   } = props.state;
 
   let containsLetter = false;
@@ -109,6 +114,14 @@ const Result = (props) => {
       position: id_7,
       href: wykaz_7E,
     },
+    {
+      id: 8,
+      date: "03.XI.2023",
+      list: list_8,
+      points: punkty_8,
+      position: id_8,
+      href: wykaz_8E,
+    }
   ];
 
   const resultBlocks = releaseDate.map((item) => {

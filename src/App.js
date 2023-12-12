@@ -11,6 +11,7 @@ import wykaz_4 from "./assets/wykaz18022021.json";
 import wykaz_5 from "./assets/wykaz01122021.json";
 import wykaz_6 from "./assets/wykaz21122021.json";
 import wykaz_7 from "./assets/wykaz17072023.json";
+import wykaz_8 from "./assets/wykaz03112023.json";
 
 class App extends Component {
   state = {
@@ -25,6 +26,7 @@ class App extends Component {
     list_5: "empty",
     list_6: "empty",
     list_7: "empty",
+    list_8: "empty",
 
     id_1: "",
     id_2: "",
@@ -33,6 +35,7 @@ class App extends Component {
     id_5: "",
     id_6: "",
     id_7: "",
+    id_8: "",
 
     punkty_1: "",
     punkty_2: "",
@@ -41,6 +44,7 @@ class App extends Component {
     punkty_5: "",
     punkty_6: "",
     punkty_7: "",
+    punkty_8: "",
   };
 
   handleClick = (e) => {
@@ -64,6 +68,7 @@ class App extends Component {
       list_5: "empty",
       list_6: "empty",
       list_7: "empty",
+      list_8: "empty",
     });
   };
 
@@ -80,6 +85,7 @@ class App extends Component {
       list_5: "empty",
       list_6: "empty",
       list_7: "empty",
+      list_8: "empty",
     });
   };
 
@@ -104,8 +110,9 @@ class App extends Component {
       wykaz_5,
       wykaz_6,
       wykaz_7,
+      wykaz_8,
     ];
-    const listNumbers = [1, 2, 3, 4, 5, 6, 7];
+    const listNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
     const fraza = this.state.inputValue;
     let wpis = "";
 
