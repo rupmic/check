@@ -15,7 +15,7 @@ const Footer = () => {
             </a>
             .
         </p>
-        <p className={styles.footer_update}>Ostatnia aktualizacja: 12 grudnia 2023 r.</p>
+        <p className={styles.footer_update}>Ostatnia aktualizacja: 06 stycznia 2024 r.</p>
     </div>
   );
 };
